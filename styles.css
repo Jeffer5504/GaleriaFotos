@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 400 14px Roboto, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(66, 41, 102);
+}
+.title {
+    color: #FFF;
+}
+.content-dad {
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+    margin:  40px 0;
+    background: #200A3F;
+    width: 650px;
+    height: 100vh;
+    box-shadow: rgb(31, 9, 63) 5px 10px 20px;
+    border-radius: 6px;
+}
+
+.content-dad {
+    grid-template-areas: 
+    "one two two tree"
+    "one four four four"
+    "five six seven seven"
+    "eight six nine nine";
+}
+.one {
+    grid-area: one;
+    background-image: url("./img/one.jpg");
+    background-size: cover;
+}
+.two {
+    grid-area: two;
+    background-image: url("./img/two.jpg");
+    background-size: cover;
+}
+.tree {
+    grid-area: tree;
+    background-image: url("./img/tree.jpg");
+    background-size: 195%;
+    background-position: right top;
+}
+.four {
+    grid-area: four;
+    background-image: url("./img/four.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.five {
+    grid-area: five;
+    background-image: url("./img/five.jpg");
+    background-position: center;
+    background-size: 145%;
+}
+.six {
+    grid-area: six;
+    background-image: url("./img/six.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.seven {
+    grid-area: seven;
+    background-image: url("./img/seven.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.eight {
+    grid-area: eight;
+    background-image: url("./img/eight.jpg");
+    background-position: bottom;
+    background-size: cover;
+}
+.nine {
+    grid-area: nine;
+    background-image: url("./img/nine.jpg");
+    background-position: bottom;
+    background-size: cover;
+}
