@@ -1,5 +1,5 @@
 # Galeria de Fotos
-Layout simples de uma galeria de fotos, para aplicar e entender melhor as propiedades do CSSGrid.
+Layout simples de uma galeria de fotos, para aplicar e entender melhor as propriedades do CSSGrid.
 
 # Tecnologias Utilizadas
 * HTML
